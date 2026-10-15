@@ -36,7 +36,7 @@ This repository holds the documentation only. The server is hosted by Trisport; 
 
 **Claude** — Settings → Connectors → Add custom connector → URL `https://www.trisport.ro/mcp/cont` → Authentication *Sign in now*, OAuth client *Use Claude's published identity* → Add → Connect.
 
-**ChatGPT** — Settings → Apps & Connectors → Advanced settings → Developer mode → create a connector with URL `https://www.trisport.ro/mcp`, authentication OAuth.
+**ChatGPT** — Plugins → **+** → *Add custom MCP server* → Name `Trisport`, Connection URL `https://www.trisport.ro/mcp` (OAuth is discovered automatically). Submitted to the ChatGPT plugin directory.
 
 **Claude Code**
 ```bash
